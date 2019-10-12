@@ -27,3 +27,8 @@ X = vectorizer.fit_transform(dataset.data)
   <img width="600" height="300" src="https://raw.githubusercontent.com/CeciliaXWang/201944766WangFangJun/master/homework1/picture/Clustering%20Algorithms.png"/>
 </div>
 在sklearn中使用上述聚类算法对数据集进行聚类
+使用Homogeneity（hg_score）,Completeness(c_score),Normalized Mutual Information (NMI) 作为评价指标，对聚类效果进行评价
+结果如下图
+（1）homework1：digits手写字体数据集
+
+（2）20newsgroups数据集
