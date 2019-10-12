@@ -28,7 +28,8 @@ X = vectorizer.fit_transform(dataset.data)
 </div>
 在sklearn中使用上述聚类算法对数据集进行聚类
 使用Homogeneity（hg_score）,Completeness(c_score),Normalized Mutual Information (NMI) 作为评价指标，对聚类效果进行评价
-结果如下图
+结果如下图  
+
 （1）homework1：digits手写字体数据集
 
 <div align=center>
@@ -56,8 +57,8 @@ X = vectorizer.fit_transform(dataset.data)
   <img width="450" height="180" src="https://raw.githubusercontent.com/CeciliaXWang/201944766WangFangJun/master/homework1/picture/result2.png"/>
 </div>
 
-     聚类时间：WHC < KM < DB < SC < GM < AC < MS < AP  
-     Homogeneity评价优劣：AP > GM > KM > MS > AC > WHC > SC > DB  
-     completeness评价优劣：DB > GM > KM > AP > MS > SC > AC > WHC  
-     NMI评价优劣：GM > AP > KM > DB > MS > AC> WHC > SC
+     聚类时间：DB < SC < KM < AP < MS < AC < WHC < GM  
+     Homogeneity评价优劣：AP > GM > WHC > KM > SC > DB > AC > MS  
+     completeness评价优劣：MS > WHC > GM > KM > SC > AP > DB > AC 
+     NMI评价优劣：GM > WHC > KM > AP > SC > DB> AC > MS
  
