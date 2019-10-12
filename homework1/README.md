@@ -1,5 +1,5 @@
 # Homework1： Clustering with sklearn  
-## Data processing  
+## 数据处理  
 1、homework1中数据处理方式是先获得原始数据以及原始数据的标签（即属于哪一类），后对原始数据进行标准化  
 ```
 digits=load_digits()
@@ -22,7 +22,7 @@ vectorizer = TfidfVectorizer(max_df=0.5, max_features=opts.n_features,
 X = vectorizer.fit_transform(dataset.data)
 ```
 
-## Clustering Algorithms
+## 聚类算法
 <div align=center>
   <img width="600" height="300" src="https://raw.githubusercontent.com/CeciliaXWang/201944766WangFangJun/master/homework1/picture/Clustering%20Algorithms.png"/>
 </div>
@@ -40,7 +40,7 @@ X = vectorizer.fit_transform(dataset.data)
   <img width="450" height="180" src="https://raw.githubusercontent.com/CeciliaXWang/201944766WangFangJun/master/homework1/picture/result2.png"/>
 </div>
 
-## Compare
+## 结果分析
 
 （1）digits数据集 
 <div align=center>
