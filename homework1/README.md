@@ -23,4 +23,7 @@ X = vectorizer.fit_transform(dataset.data)
 ```
 
 ## Clustering Algorithms
-![Image text]()
+<div align=center>
+  <img width="600" height="300" src="https://raw.githubusercontent.com/CeciliaXWang/201944766WangFangJun/master/homework1/picture/Clustering%20Algorithms.png"/>
+</div>
+在sklearn中使用上述聚类算法对数据集进行聚类
