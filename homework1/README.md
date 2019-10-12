@@ -32,3 +32,11 @@ X = vectorizer.fit_transform(dataset.data)
 （1）homework1：digits手写字体数据集
 
 （2）20newsgroups数据集
+
+## Compare
+（1）digits数据集
+聚类时间：MS<WD<AC<KM<DB<GM<AP<SC
+Homogeneity评价优劣：AP>WD>GM>KM_random>KM_kmeans++>MS>AC>SC>DB
+completeness评价优劣：DB>WD>GM>KM_random>KM_kmeans++>AP>SC>MS>AC
+NMI评价优劣：WD>GM>km_random>AP>KM_kmeans++>DB>MS>AC>SC
+（2）20newsgroups数据集
