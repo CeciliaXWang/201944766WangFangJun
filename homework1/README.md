@@ -31,10 +31,18 @@ X = vectorizer.fit_transform(dataset.data)
 结果如下图
 （1）homework1：digits手写字体数据集
 
+<div align=center>
+  <img width="400" height="200" src="https://raw.githubusercontent.com/CeciliaXWang/201944766WangFangJun/master/homework1/picture/result1.png"/>
+</div>
 （2）20newsgroups数据集
-
+<div align=center>
+  <img width="400" height="200" src="https://raw.githubusercontent.com/CeciliaXWang/201944766WangFangJun/master/homework1/picture/result2.png"/>
+</div>
 ## Compare
 （1）digits数据集 
+<div align=center>
+  <img width="400" height="200" src="https://raw.githubusercontent.com/CeciliaXWang/201944766WangFangJun/master/homework1/picture/result1.png"/>
+</div>
 
      聚类时间：WHC < KM < DB < SC < GM < AC < MS < AP  
      Homogeneity评价优劣：AP > GM > KM > MS > AC > WHC > SC > DB  
@@ -42,3 +50,6 @@ X = vectorizer.fit_transform(dataset.data)
      NMI评价优劣：GM > AP > KM > DB > MS > AC> WHC > SC
     
 （2）20newsgroups数据集
+<div align=center>
+  <img width="400" height="200" src="https://raw.githubusercontent.com/CeciliaXWang/201944766WangFangJun/master/homework1/picture/result2.png"/>
+</div>
