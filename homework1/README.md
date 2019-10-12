@@ -14,7 +14,7 @@ data=scale(origin_data)
 n_classes=len(np.unique(labels))
 
 ```
-2、homework2中数据处理方式是使用sklearn中的TfidfVectorizer从文本列表中提取特征，得到向量表示矩阵(dim: [samples_num,features_num])  
+2、homework2中数据处理方式是使用sklearn中的TfidfVectorizer从文本列表中提取特征，对HashingVectorizer的输出执行IDF规范化
 ```
 vectorizer = TfidfVectorizer(max_df=0.5, max_features=opts.n_features,
                                  min_df=2, stop_words='english',
