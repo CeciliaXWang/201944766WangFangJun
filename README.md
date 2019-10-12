@@ -1,5 +1,5 @@
 # Data Mining Course
 
 ## Homework1：Clustering with sklearn
-README:homework1/README.md
+README:https://github.com/CeciliaXWang/201944766WangFangJun/blob/master/homework1/README.md
 
