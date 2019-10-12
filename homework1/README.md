@@ -34,9 +34,11 @@ X = vectorizer.fit_transform(dataset.data)
 （2）20newsgroups数据集
 
 ## Compare
-（1）digits数据集
-聚类时间：MS<WD<AC<KM<DB<GM<AP<SC
-Homogeneity评价优劣：AP>WD>GM>KM_random>KM_kmeans++>MS>AC>SC>DB
-completeness评价优劣：DB>WD>GM>KM_random>KM_kmeans++>AP>SC>MS>AC
-NMI评价优劣：WD>GM>km_random>AP>KM_kmeans++>DB>MS>AC>SC
+（1）digits数据集 
+
+     聚类时间：WHC < KM < DB < SC < GM < AC < MS < AP  
+     Homogeneity评价优劣：AP > GM > KM > MS > AC > WHC > SC > DB  
+     completeness评价优劣：DB > GM > KM > AP > MS > SC > AC > WHC  
+     NMI评价优劣：GM > AP > KM > DB > MS > AC> WHC > SC
+    
 （2）20newsgroups数据集
