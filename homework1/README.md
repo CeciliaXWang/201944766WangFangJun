@@ -35,14 +35,14 @@ X = vectorizer.fit_transform(dataset.data)
 <div align=center>
   <img width="450" height="180" src="https://raw.githubusercontent.com/CeciliaXWang/201944766WangFangJun/master/homework1/picture/result1.png"/>
 </div>
-（2）20newsgroups数据集
+（2）homework2：20newsgroups数据集
 <div align=center>
   <img width="450" height="180" src="https://raw.githubusercontent.com/CeciliaXWang/201944766WangFangJun/master/homework1/picture/result2.png"/>
 </div>
 
 ## 结果分析
 
-（1）digits数据集 
+（1）homework1：digits数据集 
 <div align=center>
   <img width="450" height="180" src="https://raw.githubusercontent.com/CeciliaXWang/201944766WangFangJun/master/homework1/picture/result1.png"/>
 </div>
@@ -52,7 +52,7 @@ X = vectorizer.fit_transform(dataset.data)
      completeness评价优劣：DB > GM > KM > AP > MS > SC > AC > WHC  
      NMI评价优劣：GM > AP > KM > DB > MS > AC> WHC > SC
     
-（2）20newsgroups数据集
+（2）homework2：20newsgroups数据集
 <div align=center>
   <img width="450" height="180" src="https://raw.githubusercontent.com/CeciliaXWang/201944766WangFangJun/master/homework1/picture/result2.png"/>
 </div>
